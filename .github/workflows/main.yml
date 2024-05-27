@@ -112,8 +112,8 @@ jobs:
       uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "Update data.json"
-        files: data.json
+        commit-message: "Update output/data.json"
+        files: output/data.json
         rebase: 'true'
         name: github-actions[bot]
         email: github-actions@noreply.github.com
