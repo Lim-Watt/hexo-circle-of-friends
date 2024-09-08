@@ -74,7 +74,7 @@ class SQLPipeline:
                 # 未失联的人
                 self.nonerror_data.add(item["author"])
 
-            # print(item)
+            print(item)
             for query_item in self.query_post_list:
                 try:
                     if query_item.link == item["link"]:
