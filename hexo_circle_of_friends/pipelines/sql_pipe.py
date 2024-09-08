@@ -166,6 +166,6 @@ class SQLPipeline:
         self.session.commit()
 
         info = f"""\033[1;34m\n——————————————————————————————————————————————————————————————————————————————
-{item['author']}\n《{item['title']}》\n文章发布时间：{item['created']}\t\t采取的爬虫规则为：{item['rule']}
+{item['author']}\n《{item['title']}》\n文章链接：{item['link']}\n文章发布时间：{item['created']}\t\t采取的爬虫规则为：{item['rule']}
 ——————————————————————————————————————————————————————————————————————————————\033[0m"""
         logger.info(info)
