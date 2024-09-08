@@ -64,7 +64,7 @@ class SQLPipeline:
             li.append(item["link"])
             li.append(item["img"])
             self.userdata.append(li)
-            # print(item)
+            print(item)
             return item
 
         if "title" in item.keys():
